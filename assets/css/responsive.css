@@ -2,8 +2,20 @@
     #header{
         overflow: hidden;
     }
+    #nav {
+        display: block;
+    }
     #nav > li {
         display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .menu-btn {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
     #header .search-btn {
         display: none;
