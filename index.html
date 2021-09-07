@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="" href="">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <title>Document</title>
 </head>
@@ -34,6 +36,9 @@
             <!-- Begin search -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
+            </div>
+            <div id="mobile-menu" class="menu-btn">
+                <i class="ti-menu"></i>
             </div>
             <!-- End search -->
 
@@ -187,26 +192,6 @@
             </div>
         </div>
     </div>
-    <script>
-        const buyBtns = document.querySelectorAll('.js-buy-ticket')
-        const modal = document.querySelector('.js-modal')
-        const modalContainer = document.querySelector('.js-modal-container')
-        const modalClose = document.querySelector('.js-modal-close')
-        function showBuyTickets(){
-            modal.classList.add('open')
-        }
-        function hideBuyTickets(){
-            modal.classList.remove('open')
-        }
-
-        for (const buyBtn of buyBtns){
-            buyBtn.addEventListener('click', showBuyTickets)
-        }
-        modalClose.addEventListener('click', hideBuyTickets)
-        modal.addEventListener('click', hideBuyTickets)
-        modalContainer.addEventListener('click', function(event){
-            event.stopPropagation()
-        })
-    </script>
+<script src="assets/js/js.js"></script>
 </body>
 </html>

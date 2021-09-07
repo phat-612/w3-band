@@ -125,20 +125,15 @@ html{
 #nav .nav-arrow-down{
     font-size: 14px;
 }
-#header .menu-btn,
+
 #header .search-btn{
     float: right;
 }
-#header .menu-btn,
+
 #header .search-btn .search-icon{
     color: #fff;
     line-height: 46px;
     padding:0px 15px;
-}
-
-#header .menu-btn:hover{
-    background-color: #ccc;
-    color: #000;
 }
 
 #header .search-btn:hover{
