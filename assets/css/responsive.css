@@ -1,4 +1,7 @@
 @media only screen and (max-width: 739px) {
+    .s-col-full{
+        width: 100%;
+    }
     #header{
         overflow: hidden;
     }
@@ -11,6 +14,15 @@
     #nav > li:first-child{
         display: inline-block;
     }
+    #nav .subnav {
+        position: initial;
+        background-color:#333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 13px 40px;
+
+    }
     #header .menu-btn {
         display: block;
         position: absolute;
@@ -20,6 +32,8 @@
     #header .search-btn {
         display: none;
     }
-
+    #content .member-img{
+        width: 60%;
+    }
   }
   
